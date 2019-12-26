@@ -1,15 +1,6 @@
 from random import randint
 from tkinter import*
 
-"""
-class Character:
-    output = ""
-    face = ""
-    hair = ""
-    body = ""
-"""
-
-
 def face_roll():
     size = [
         "Large",
@@ -219,13 +210,6 @@ def body_roll():
         feet = size[basic_picker] + " feet. \n"
         body = (skin + shoulders + arms + hands + thighs + legs + feet)
         return body
-
-
-"""
-character_call = Character()
-generate_call = character_call.generate()
-"""
-
 
 def generate():
     face = ""
